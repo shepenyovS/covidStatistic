@@ -7,7 +7,7 @@ function CountryItem({ country, number }) {
   const [visible, setVisible] = useState(false);
 
   useEffect(()=>{
-document.body.classList.toggle('modal_open', visible);
+document.body.classList.toggle("modal_open", visible);
   },[visible])
 
   return (

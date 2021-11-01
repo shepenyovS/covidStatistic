@@ -14,12 +14,11 @@
     letter-spacing: 0em;    
     position: relative;
     color: #000000;
+   
     
 }
 
-.modal_open {
-    overflow: hidden;
-}
+
 .error_wrapper{
     height: 100vh;
     color:white;
@@ -36,4 +35,9 @@
    border: 1px solid rgb(255, 255, 255);
    background: #d84f71;
    border-radius: 20px;  
+}
+
+.modal_open {
+    overflow: hidden;
+  
 }

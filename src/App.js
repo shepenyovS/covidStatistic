@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import classes from "./App.module.css";
+import classes from "./App.css";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 
@@ -12,8 +12,8 @@ function App() {
  
   console.log(errors)
   return (
-    <div className={classes.App}>
-  {errors.length>0 && <div className={classes.error_wrapper}>  <span className={classes.error_message} >{errors[0].toString()} </span>  </div>}
+    <div className="App">
+  {errors.length>0 && <div className="error_wrapper">  <span className="error_message">{errors[0].toString()} </span>  </div>}
    {errors.length===0 && <> <Header
       searchCountry={searchCountry}
       setSearchCountry={setSearchCountry} />
