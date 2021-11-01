@@ -1,0 +1,29 @@
+
+.search_wrapper {
+    
+    display: flex;
+    align-items: center;
+    
+}
+.search_wrapper input {
+   
+   display: block;
+    padding: 12px 70px 12px 32px;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #B2B2B2;
+
+    background-image: url("./../../../additional/img/Vector.png");
+    background-position: 95% center;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    outline:none;
+    
+}
+.search_wrapper input::placeholder{
+    color: #B2B2B2;
+}

@@ -1,0 +1,16 @@
+.logo_wrapper  {
+
+    display: flex;
+    align-items: center; 
+}
+.logo_wrapper img  {
+    padding-right: 10px;
+}
+.logo_wrapper span {
+    font-size: 72px;
+    line-height: 84px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+

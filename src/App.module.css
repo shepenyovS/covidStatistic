@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box  ;
+}
+.App{
+   width: 1920px;
+   margin: 0 auto;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;    
+    position: relative;
+    color: #000000;
+    
+}
+
+.modal_open {
+    overflow: hidden;
+}
+.error_wrapper{
+    height: 100vh;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+
+.error_message{
+   width: 20%;
+   display: block;
+   padding: 20px;
+   margin: 0 auto;
+   text-align: center;  
+   border: 1px solid rgb(255, 255, 255);
+   background: #d84f71;
+   border-radius: 20px;  
+}

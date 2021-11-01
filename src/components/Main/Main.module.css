@@ -1,0 +1,13 @@
+.main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.empty_filterResults{
+    padding:20px;
+    width: 400px;
+
+    color: gray;
+    margin: 0 auto;
+}
